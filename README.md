@@ -15,7 +15,7 @@ Module Input Variables
 - `peer_src_vpc_id`           - The VPC ID of the initiating VPC.
 - `peer_dst_vpc_id`           - The VPC ID of the receiving VPC.
 - `peer_src_route_tables`     - Route tables of the initiating VPC to add routes to the receiving VPC for.
-- `peer_dst_vpc_route_tables` - Route tables of the receiving VPC to add routes to the initiating VPC for.
+- `peer_dst_route_tables` - Route tables of the receiving VPC to add routes to the initiating VPC for.
 - `auto_accept`               - Specify whether or not this connection should automatically be accepted. Must be set to false if VPCs are not in the same region.
 
 
